@@ -45,7 +45,7 @@ for ( i = 0; i < num; i++) {
             } else if (confirmacion == "no") {
                 h++;
             } else {
-                alert("Favor oprimir ('si' o 'no')");
+                alert("Favor ingrese (si/no)");
                 h++;
             }
 
