@@ -173,11 +173,15 @@ Estas pueden usarse para el manejo de datos. Empecemos por su uso:
 
 >> Tambien se puede de esta forma: 'thislist.insert(2, "watermelon")'
 '''
-#Insertar la lista
-'''thislist = ['apple','banana','cherry','blackberry','mango']
-print(thislist)
+thislist = ['apple','banana','cherry','blackberry','mango']
+#Insertar la lista ----------------------------------------------------------------
+'''print(thislist)
 rm = input("Ingrese una fruta + a la lista:\n")
 ps = int(input("Ingrese la posicion para la dicha fruta:\n"))
 thislist.insert(ps, rm)
 print(thislist)'''
-#--------------------------------------------------------------
+#Fitrar la lista-------------------------------------------------------------------
+if "apple" in thislist:
+    print("Yes, apple esta en esta lista")
+else:
+    print("'apple' no esta en la lista")
